@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratik Neupane | About </title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+   html,body{
+    font-family: Arial, sans-serif;
+    height: 100%;
+    width: 100%;
+   }
+   body{
+    background-color: #181818;
+   }
+   .heading p{
+    font-size: 1rem;
+    color: #ffffff;
+    margin-top: 40px;
+    text-align: center;
+   }
+   .heading h1{
+    font-size: 3.5rem;
+    color: #E27018ff;
+    margin-top: 20px;
+    text-align: center;
+   }
+   .image-container{
+    display: inline-block;
+  border: 5px solid #ff8300; /* Orange border */
+  border-radius: 50%; /* Circular image */
+  overflow: hidden;
+  width: 280px; /* Adjust as needed */
+  height: 280px; /* Adjust as needed */
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  margin-left: 38%;
+  margin-top: 2%;
+
+   }
+ 
+.image-container img{
+    width: 100%;
+  height: 100%;
+  object-fit: cover; 
+   }
+   .paragraph{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+   }
+   .paragraph p {
+  font-size: 1rem;
+  color: #cccccc; /* Light gray for paragraph */
+  text-align: center;
+}
+   .card-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+   }
+   .GraphicsDesign,
+   .WebDevelopment,
+   .SEO,
+   .SocialMediaMarketing {
+    width: 200px;
+    height: 200px;
+    background-color: #ffff;
+   }
+   .card-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px; /* Spacing between cards */
+  flex-wrap: wrap; /* Wrap cards on small screens */
+  margin-top: 30px;
+}
+
+.card {
+  background-color: #ffffff; /* White card background */
+  color: #1d1d1d; /* Dark text color */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  width: 200px; /* Card width */
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.3s ease; /* Hover effect */
+}
+
+.card:hover {
+  transform: translateY(-10px); /* Lift effect on hover */
+}
+
+.card img {
+  height: 50px; /* Icon height */
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #ff8300; /* Orange card title */
+}
+
+.card a {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #ff8300; /* Orange text for "More" */
+  font-weight: bold;
+}
+@media (max-width: 768px) {
+   
+  h1 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+    margin: 10px 0 20px 0;
+  }
+
+  .image-container {
+    width: 120px;
+    height: 120px;
+  }
+
+  .card {
+    width: 150px; /* Smaller card width for smaller screens */
+  }
+
+  .card-container {
+    gap: 15px; /* Reduce gap between cards */
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  .image-container {
+    width: 100px;
+    height: 100px;
+  }
+
+  p {
+    font-size: 0.8rem;
+  }
+
+  .card {
+    width: 100%; /* Full width for smaller devices */
+    margin: 10px 0; /* Add spacing between cards */
+  }
+
+  .card-container {
+    flex-direction: column; /* Stack cards vertically */
+    align-items: center;
+  }
+}
+</style>
+</head>
+<body>
+    <div class="heading">
+        <!-- <p>A BIT ABOUT ME</p> -->
+        <h1>Who Am I ? </h1>
+    </div>
+    <div class="image-container">
+    
+        <img src="pratik.png" alt="Pratik Neupane">
+    
+</div>
+    <div class="paragraph">
+        <p>Hello, I'm Pratik Neupane. I am a Junior Web Developer with a passion for technology and design. <br> I have been working remotely for the last few months,focusing primarily on web development and <br>  I am currently available  .Some of my hobbies include playing chess, <br> exploring new cities, and trying out new recipes.I also enjoy painting and sketch.
+    </div>
+    <div class="card-container">
+        <div class="card">
+        <img src="https://img.freepik.com/free-vector/illustration-social-media-concept_53876-26985.jpg?t=st=1737876074~exp=1737879674~hmac=8ccb70956b55a6066d9dcf6862f3c4ea8fd00d901faab74bd8350c6a6c075ce8&w=740" alt="" srcset="">
+        <h3>Graphic design</h3>
+        <a href="Viewallproj.html">more</a>
+    </div>
+        <div class="card">
+            <img src="https://img.freepik.com/premium-vector/web-design-2_693908-19.jpg?w=740" alt="" srcset="">
+            <h3>Web design</h3>
+            <a href="Viewallproj.html">More</a>
+        </div>
+        <div class="card">
+            <img src="https://img.freepik.com/free-vector/seo-concept-illustration_24908-61525.jpg?t=st=1737876271~exp=1737879871~hmac=a18fe0c320fba56732b11e9b3df46f95dc51cff9c5880534f3732be055fcf058&w=740" alt="" srcset="">
+            <h3>SEO</h3>
+            <a href="Viewallproj.html">More</a>
+        </div>
+        <div class="card">
+            <img src="https://img.freepik.com/free-vector/marketing-consulting-concept-illustration_114360-9027.jpg?ga=GA1.1.689025077.1736436070&semt=ais_hybrid" alt="" srcset="">
+            <h3>Social media marketing</h3>
+            <a href="#">More</a>
+        </div>
+    </div>
+</body>
+</html>

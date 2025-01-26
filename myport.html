@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="myport.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <title>Pratik Neupane</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+              <h2><a href="#home">Pratik Neupane</a></h2>
+            </div>
+            <div class="nav-items">
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Projects</a></li>
+                <i class="ri-menu-3-line icon" id="menu-btn"></i>
+              </ul>
+            </div>
+          </nav>
+
+
+          <!-- Mobile Navbar -->
+<div class="mobile-nav-items" id="mobile-nav">
+    <i class="ri-close-line close-btn" id="close-btn"></i>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+    </ul>
+  </div>
+
+  
+
+  
+
+    </header>
+    <main>
+        <section class="first">
+            <div class="description">
+                <h2>Hello, my name is <span>Pratik Neupane.</span></h2>
+                <p> Happy to see you here!
+                    Let's begain <br> our journey.
+
+                    Contact me if you want </p>
+                <span id="element"></span> <br>
+
+                <button> <a href="#">Contact Me </a></button>
+
+            </div>
+            <div class="image">
+                <img src="./vecteezy_cartoon-character-with-the-desk-working-concept-illustration_44448949.png" alt="">
+            </div>
+        </section>
+        <section class="skills-content">
+            <h2>Skills</h2>
+            <div class="skills">
+                <div class="webdev">
+                    <h3>Web Development</h3>
+                    <p>Hey if you want a professional and responsive website then join with me!</p>
+                </div>
+                <div class="GraphicDesign">
+                    <h3>Graphic Designing</h3>
+                    <p>Hey if you want a realistic Graphics for your business then simply contact with me!!</p>
+                </div>
+                <div class="DigitalMarketing">
+                    <h3>Digital Marketing</h3>
+                    <p>Hey if you want to take your business online also contact with me !</p>
+                </div>
+                <div class="WebDesign">
+                    <h3>Web Designing</h3>
+                    <p>If you want to design your website before coding then simply call me!</p>
+                </div>
+                <div class="SEO">
+                    <h3>SEO</h3>
+                    <p>Hey if you want to rank you website in the top of Google then simply contact me!</p>
+                </div>
+            </div>
+        </section>
+        <section class="footer">
+            <footer>
+                <div class="content">
+                    <div class="social-links">
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+
+                        <div class="socials">
+                            <a href="www.linkedin.com/in/pratik-neupane-6a736431a/" target="_blank">LinkedIn</a>
+                            <a href="https://github.com/Pratikneupane345" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                    <div class="desc">
+                        <p class="email"> <span>Email:</span> <a href="mailto:pratikneupane02.com"
+                                c>pratikneupane02@gmail.com</a></p>
+                        <p class="copyright">© 2025 Pratik Neupane | Junior Developer</p>
+                    </div>
+                </div>
+            </footer>
+        </section>
+    </main>
+
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Development', 'Web designing', 'Graphics Designing', 'Digital Marketing', 'SEO'],
+            typeSpeed: 50,
+        });
+    </script>
+    <script src="myport.js"></script>
+</body>
+
+</html>
